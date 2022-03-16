@@ -3,17 +3,23 @@ defmodule Exmeal.Meal do
 
   import Ecto.Changeset
 
-  @primary_key {:id, :binary_id, autogenerate: true}
-  @foreign_key_type :binary_id
+  @required_params [:description, :date, :calories]
 
-  @required_params [:description, :date, :calories, :user_id]
-  @derive {Jason.Encoder, only: @required_params ++ [:id]}
+  @primary_key {:id, :binary_id, autogenerate: true}
+
+  @derive {Jason.Encoder, only: [:id, :description, :calories, :date]}
 
   schema "meals" do
-    # TO DO
+    field(:description, :string)
+    field(:date, :date)
+    field(:calories, :integer)
+
+    timestamps()
   end
 
-  def changeset() do
-    # TO DO
+  def changeset(struct \\ %__MODULE__{}, params) do
+    struct
+    |> cast(params, @required_params)
+    |> validate_required(@required_params)
   end
 end

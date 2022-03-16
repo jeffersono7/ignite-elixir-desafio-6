@@ -1,0 +1,13 @@
+version: '3.1'
+
+services:
+  postres:
+    image: postgres
+    restart: on-failure
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: exmeal_db
+    command: ['-c', 'max_connections=200']
+    ports:
+      - '5432:5432'
