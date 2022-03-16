@@ -4,18 +4,18 @@
   "invalid": [],
   "passed": [
     {
-      "describe": "Get User",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/users/get_test.exs",
+      "describe": "Delete user",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/users/delete_test.exs",
       "line": 9,
-      "module": "Elixir.Exmeal.Users.GetTest",
-      "test": "test Get User when a valid id is given, returns the user"
+      "module": "Elixir.Exmeal.Users.DeleteTest",
+      "test": "test Delete user when a valid id is given, returns the user"
     },
     {
-      "describe": "Get User",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/users/get_test.exs",
+      "describe": "Delete user",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/users/delete_test.exs",
       "line": 25,
-      "module": "Elixir.Exmeal.Users.GetTest",
-      "test": "test Get User when an invalid id is given, returns an error"
+      "module": "Elixir.Exmeal.Users.DeleteTest",
+      "test": "test Delete user when an invalid id is given, returns an error"
     }
   ],
   "skiped": []
