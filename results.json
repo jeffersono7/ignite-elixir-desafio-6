@@ -4,18 +4,18 @@
   "invalid": [],
   "passed": [
     {
-      "describe": "Create User",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/users/create_test.exs",
-      "line": 7,
-      "module": "Elixir.Exmeal.Users.CreateTest",
-      "test": "test Create User when all params are valid, returns the user"
+      "describe": "Get User",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/users/get_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.Users.GetTest",
+      "test": "test Get User when a valid id is given, returns the user"
     },
     {
-      "describe": "Create User",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/users/create_test.exs",
-      "line": 22,
-      "module": "Elixir.Exmeal.Users.CreateTest",
-      "test": "test Create User when there are invalid params, returns an error"
+      "describe": "Get User",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/users/get_test.exs",
+      "line": 25,
+      "module": "Elixir.Exmeal.Users.GetTest",
+      "test": "test Get User when an invalid id is given, returns an error"
     }
   ],
   "skiped": []
