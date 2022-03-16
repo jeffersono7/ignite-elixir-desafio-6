@@ -4,18 +4,11 @@
   "invalid": [],
   "passed": [
     {
-      "describe": "Update Meal",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/users/update_test.exs",
-      "line": 25,
-      "module": "Elixir.Exmeal.User.UpdateTest",
-      "test": "test Update Meal when an invalid id is given, returns an error"
-    },
-    {
-      "describe": "Update Meal",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/users/update_test.exs",
-      "line": 9,
-      "module": "Elixir.Exmeal.User.UpdateTest",
-      "test": "test Update Meal when a valid id is given, returns the meal"
+      "describe": "changeset/1",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/meal_test.exs",
+      "line": 11,
+      "module": "Elixir.Exmeal.MealTest",
+      "test": "test changeset/1 when all params are valid, returns a valid changeset"
     }
   ],
   "skiped": []
