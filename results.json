@@ -4,18 +4,18 @@
   "invalid": [],
   "passed": [
     {
-      "describe": "Delete user",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/users/delete_test.exs",
-      "line": 9,
-      "module": "Elixir.Exmeal.Users.DeleteTest",
-      "test": "test Delete user when a valid id is given, returns the user"
+      "describe": "Update Meal",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/users/update_test.exs",
+      "line": 25,
+      "module": "Elixir.Exmeal.User.UpdateTest",
+      "test": "test Update Meal when an invalid id is given, returns an error"
     },
     {
-      "describe": "Delete user",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/users/delete_test.exs",
-      "line": 25,
-      "module": "Elixir.Exmeal.Users.DeleteTest",
-      "test": "test Delete user when an invalid id is given, returns an error"
+      "describe": "Update Meal",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/users/update_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.User.UpdateTest",
+      "test": "test Update Meal when a valid id is given, returns the meal"
     }
   ],
   "skiped": []
