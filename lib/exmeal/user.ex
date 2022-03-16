@@ -14,6 +14,8 @@ defmodule Exmeal.User do
     field :cpf, :string
     field :email, :string
     field :name, :string
+
+    has_many :meals, Exmeal.Meal
   end
 
   def changeset(struct \\ %__MODULE__{}, params) do
