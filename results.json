@@ -11,13 +11,6 @@
       "test": "test changeset/1 when all params are valid, returns a valid changeset"
     },
     {
-      "describe": "changeset/1",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/meal_test.exs",
-      "line": 11,
-      "module": "Elixir.Exmeal.MealTest",
-      "test": "test changeset/1 when all params are valid, returns a valid changeset"
-    },
-    {
       "describe": "Delete user",
       "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/users/delete_test.exs",
       "line": 25,
@@ -30,6 +23,27 @@
       "line": 9,
       "module": "Elixir.Exmeal.Users.DeleteTest",
       "test": "test Delete user when a valid id is given, returns the user"
+    },
+    {
+      "describe": "changeset/1",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/meal_test.exs",
+      "line": 11,
+      "module": "Elixir.Exmeal.MealTest",
+      "test": "test changeset/1 when all params are valid, returns a valid changeset"
+    },
+    {
+      "describe": "Delete Meal",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/meals/delete_test.exs",
+      "line": 30,
+      "module": "Elixir.Exmeal.Meals.DeleteTest",
+      "test": "test Delete Meal when an invalid id is given, returns an error"
+    },
+    {
+      "describe": "Delete Meal",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/meals/delete_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.Meals.DeleteTest",
+      "test": "test Delete Meal when a valid id is given, returns the meal"
     },
     {
       "describe": "Get Meal",
@@ -60,20 +74,6 @@
       "test": "test Update Meal when a valid id is given, returns the meal"
     },
     {
-      "describe": "Delete Meal",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/meals/delete_test.exs",
-      "line": 30,
-      "module": "Elixir.Exmeal.Meals.DeleteTest",
-      "test": "test Delete Meal when an invalid id is given, returns an error"
-    },
-    {
-      "describe": "Delete Meal",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/meals/delete_test.exs",
-      "line": 9,
-      "module": "Elixir.Exmeal.Meals.DeleteTest",
-      "test": "test Delete Meal when a valid id is given, returns the meal"
-    },
-    {
       "describe": "Get User",
       "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/users/get_test.exs",
       "line": 25,
@@ -102,6 +102,62 @@
       "test": "test Update Meal when a valid id is given, returns the meal"
     },
     {
+      "describe": "update/2",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 115,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test update/2 when not exist id, return an error"
+    },
+    {
+      "describe": "create/2",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test create/2 when all params are valid, creates a meal"
+    },
+    {
+      "describe": "update/2",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal_web/controller/users_controller_test.exs",
+      "line": 107,
+      "module": "Elixir.Exmeal.UsersControllerTest",
+      "test": "test update/2 when not exist id, return an error"
+    },
+    {
+      "describe": "create/2",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal_web/controller/users_controller_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.UsersControllerTest",
+      "test": "test create/2 when all params are valid, creates a user"
+    },
+    {
+      "describe": "create/2",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 37,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test create/2 when there are invalid params, returns an error"
+    },
+    {
+      "describe": "create/2",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal_web/controller/users_controller_test.exs",
+      "line": 32,
+      "module": "Elixir.Exmeal.UsersControllerTest",
+      "test": "test create/2 when there are invalid params, returns an error"
+    },
+    {
+      "describe": "delete/2",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 75,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test delete/2 when id not exist, return an error"
+    },
+    {
+      "describe": "delete/2",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal_web/controller/users_controller_test.exs",
+      "line": 66,
+      "module": "Elixir.Exmeal.UsersControllerTest",
+      "test": "test delete/2 when id not exist, return an error"
+    },
+    {
       "describe": "delete/2",
       "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal_web/controller/meals_controller_test.exs",
       "line": 58,
@@ -116,39 +172,11 @@
       "test": "test delete/2 when id exist, delete the user"
     },
     {
-      "describe": "create/2",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal_web/controller/meals_controller_test.exs",
-      "line": 37,
-      "module": "Elixir.Exmeal.MealsControllerTest",
-      "test": "test create/2 when there are invalid params, returns an error"
-    },
-    {
-      "describe": "update/2",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal_web/controller/meals_controller_test.exs",
-      "line": 90,
-      "module": "Elixir.Exmeal.MealsControllerTest",
-      "test": "test update/2 when id exist, update the meal"
-    },
-    {
-      "describe": "create/2",
+      "describe": "get/2",
       "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal_web/controller/users_controller_test.exs",
-      "line": 32,
+      "line": 142,
       "module": "Elixir.Exmeal.UsersControllerTest",
-      "test": "test create/2 when there are invalid params, returns an error"
-    },
-    {
-      "describe": "update/2",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal_web/controller/users_controller_test.exs",
-      "line": 81,
-      "module": "Elixir.Exmeal.UsersControllerTest",
-      "test": "test update/2 when id exist, update the user"
-    },
-    {
-      "describe": "create/2",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal_web/controller/meals_controller_test.exs",
-      "line": 9,
-      "module": "Elixir.Exmeal.MealsControllerTest",
-      "test": "test create/2 when all params are valid, creates a meal"
+      "test": "test get/2 when id not exist, return an error"
     },
     {
       "describe": "get/2",
@@ -158,41 +186,6 @@
       "test": "test get/2 when id not exist, return an error"
     },
     {
-      "describe": "create/2",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal_web/controller/users_controller_test.exs",
-      "line": 9,
-      "module": "Elixir.Exmeal.UsersControllerTest",
-      "test": "test create/2 when all params are valid, creates a user"
-    },
-    {
-      "describe": "update/2",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal_web/controller/meals_controller_test.exs",
-      "line": 115,
-      "module": "Elixir.Exmeal.MealsControllerTest",
-      "test": "test update/2 when not exist id, return an error"
-    },
-    {
-      "describe": "get/2",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal_web/controller/users_controller_test.exs",
-      "line": 142,
-      "module": "Elixir.Exmeal.UsersControllerTest",
-      "test": "test get/2 when id not exist, return an error"
-    },
-    {
-      "describe": "delete/2",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal_web/controller/meals_controller_test.exs",
-      "line": 75,
-      "module": "Elixir.Exmeal.MealsControllerTest",
-      "test": "test delete/2 when id not exist, return an error"
-    },
-    {
-      "describe": "update/2",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal_web/controller/users_controller_test.exs",
-      "line": 107,
-      "module": "Elixir.Exmeal.UsersControllerTest",
-      "test": "test update/2 when not exist id, return an error"
-    },
-    {
       "describe": "get/2",
       "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal_web/controller/meals_controller_test.exs",
       "line": 128,
@@ -200,18 +193,25 @@
       "test": "test get/2 when id exist, return the meal"
     },
     {
-      "describe": "delete/2",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal_web/controller/users_controller_test.exs",
-      "line": 66,
-      "module": "Elixir.Exmeal.UsersControllerTest",
-      "test": "test delete/2 when id not exist, return an error"
-    },
-    {
       "describe": "get/2",
       "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal_web/controller/users_controller_test.exs",
       "line": 120,
       "module": "Elixir.Exmeal.UsersControllerTest",
       "test": "test get/2 when id exist, return the meal"
+    },
+    {
+      "describe": "update/2",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal_web/controller/users_controller_test.exs",
+      "line": 81,
+      "module": "Elixir.Exmeal.UsersControllerTest",
+      "test": "test update/2 when id exist, update the user"
+    },
+    {
+      "describe": "update/2",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 90,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test update/2 when id exist, update the meal"
     },
     {
       "describe": null,
@@ -226,20 +226,6 @@
       "line": 12,
       "module": "Elixir.ExmealWeb.MealsViewTest",
       "test": "test render create.json"
-    },
-    {
-      "describe": "Create Meal",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/meals/create_test.exs",
-      "line": 27,
-      "module": "Elixir.Exmeal.Meals.CreateTest",
-      "test": "test Create Meal when there are invalid params, returns an error"
-    },
-    {
-      "describe": "Create Meal",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/meals/create_test.exs",
-      "line": 9,
-      "module": "Elixir.Exmeal.Meals.CreateTest",
-      "test": "test Create Meal when all params are valid, returns the meal"
     },
     {
       "describe": null,
@@ -268,6 +254,20 @@
       "line": 7,
       "module": "Elixir.ExmealWeb.ErrorViewTest",
       "test": "test renders 404.json"
+    },
+    {
+      "describe": "Create Meal",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/meals/create_test.exs",
+      "line": 27,
+      "module": "Elixir.Exmeal.Meals.CreateTest",
+      "test": "test Create Meal when there are invalid params, returns an error"
+    },
+    {
+      "describe": "Create Meal",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-4/desafios/ignite-elixir-desafio-6/test/exmeal/meals/create_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.Meals.CreateTest",
+      "test": "test Create Meal when all params are valid, returns the meal"
     },
     {
       "describe": "Create User",
